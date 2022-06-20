@@ -6,7 +6,7 @@ on:
 
 permissions: 
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,5 +20,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: release/1.0
+          branch: gh-pages
           folder: build
